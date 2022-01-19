@@ -1,0 +1,11 @@
+
+@font-face{font-family:'Karla-Regular';
+    src:url('../font/Karla-Regular.eot');src:url('../font/Karla-Regular.eot') format('embedded-opentype'),url('../font/Karla-Regular.woff') format('woff'),url('../font/Karla-Regular.ttf') format('truetype'),url('../font/Karla-Regular.svg#Karla-Regular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{font-family:'Hendangan';
+    src:url('../font/Hendangan.eot');src:url('../font/Hendangan.eot') format('embedded-opentype'),url('../font/Hendangan.woff') format('woff'),url('../font/Hendangan.ttf') format('truetype'),url('../font/Hendangan.svg#Hendangan') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}

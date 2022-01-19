@@ -1,0 +1,132 @@
+a:hover{
+    text-decoration: none;
+}
+body, a{color: rgb(112, 112, 112); font-family: 'karla', sans-serif; font-size: 15px;}
+
+.logo-area h2 {
+    margin: 0;    
+    padding: 40px 0;
+  }
+  .logo-area a {
+    font-family: 'Hendangan', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .menu-area ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .menu-area ul li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: 'karla-Regular';
+    font-size: 19px;
+    text-align: right;
+    padding: 40px 0;
+    padding-left: 60px;
+  }
+  .menu-area li {
+    display: inline-block;
+  }
+  .menu-area {
+    text-align: right;
+  }
+  .blog-content-img img {
+    width: 100%;
+    max-height: 400px;
+    margin-bottom: 30px;
+  }
+
+  
+.single-blog-item h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;    
+    font-size: 30px;
+  }
+  .single-blog-item h2 a {
+    font-size: 30px;
+  }
+  .single-blog-item p {
+    line-height: 1.8;
+  }
+  .single-blog-item p a {
+    color: #B0B0B0;
+  }
+  .single-blog-item .blog-readmore-btn {
+    padding: 15px 0;
+    display: block;
+    font-size: 17px;
+    color: #B0B0B0;
+  }
+  .blog-content-img img {
+    height: 300px;
+    width: 100%;
+  }
+  .single-blog-item {
+    margin-bottom: 80px;
+  }
+
+  
+.section-padding {
+    background: #EDEDED;
+    padding: 70px 0;
+    margin-bottom: 90px;
+  }
+  .newsletter-area h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+  }
+  .newsletter-form input {
+    border: none;
+    height: 40px;
+    background:#EDEDED;
+    width: 87%;
+    padding: 10px;
+}
+  .newsletter-form button {
+    font-size: 22px;
+    background: #EDEDED;
+    border: none;
+    padding-left: 10px;
+  }
+  .newsletter-form {
+    border-bottom: 2px solid;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+
+.load-more-btn.text-center a {
+  font-size: 20px;
+  padding: 20px 50px;
+  border: 1px solid #707070;
+}
+.load-more-btn.text-center {
+  margin-bottom: 70px;
+}
+
+
+.footer-are {
+  background: #EDEDED;
+}
+.footer-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.footer-menu li {
+  display: inline-block;
+}
+.footer-menu ul li a {
+  padding: 30px 0;
+  display: inline-block;
+  padding-right: 30px;
+}
+.footer-right a {
+  padding: 30px 0;
+  display: inline-block;
+  padding-left: 20px;
+}

@@ -1,0 +1,205 @@
+
+/*		Default Layout: 960px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	.newsletter-form input {
+		width: 85%;
+	}
+
+}
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.menu-area ul li a {
+		padding-left: 25px;
+	}
+}
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+
+	.logo-area h2 {
+		padding: 25px 0;
+		text-align: center;
+	}
+	.menu-area {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.menu-area ul li a {
+		font-size: 14px;
+		padding: 20px 5px;
+	}
+	.single-blog-item h2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	.blog-content-img img {
+		height: 200px;
+	}
+	.single-blog-item h2 a {
+		font-size: 25px;
+	}
+	.single-blog-item .blog-readmore-btn {
+		font-size: 14px;
+	}
+	.newsletter-form {
+		max-width: 100%;
+	}
+	.newsletter-form input {
+		width: 86%;
+	}
+	.load-more-btn.text-center a {
+		font-size: 15px;
+		padding: 15px 30px;
+	}
+	.footer-menu ul li a, .footer-right ul li a {
+		padding: 10px;
+	}
+	.footer-menu, .footer-right {
+		text-align: center;
+	}
+	.footer-are {
+		padding: 20px 0;
+	}
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.logo-area h2 {
+		padding: 25px 0;
+		text-align: center;
+	}
+	.menu-area {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.menu-area ul li a {
+		font-size: 14px;
+		padding: 20px 5px;
+	}
+	.single-blog-item h2 {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+	.blog-content-img img {
+		height: 200px;
+	}
+	.single-blog-item h2 a {
+		font-size: 25px;
+	}
+	.single-blog-item .blog-readmore-btn {
+		font-size: 14px;
+	}
+	.newsletter-form {
+		max-width: 100%;
+	}
+	.newsletter-form input {
+		width: 86%;
+	}
+	.load-more-btn.text-center a {
+		font-size: 15px;
+		padding: 15px 30px;
+	}
+	.footer-menu ul li a, .footer-right ul li a {
+		padding: 10px;
+	}
+	.footer-menu, .footer-right {
+		text-align: center;
+	}
+	.footer-are {
+		padding: 20px 0;
+	}
+
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+		.logo-area h2 {
+			padding: 25px 0;
+			text-align: center;
+		}
+		.menu-area {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.menu-area ul li a {
+			font-size: 14px;
+			padding: 20px 5px;
+		}
+		.single-blog-item h2 {
+			margin-top: 15px;
+			margin-bottom: 15px;
+			font-size: 25px;
+		}
+		.blog-content-img img {
+			height: 200px;
+		}
+		.single-blog-item h2 a {
+			font-size: 25px;
+		}
+		.single-blog-item .blog-readmore-btn {
+			font-size: 14px;
+		}
+		.newsletter-form {
+			max-width: 100%;
+		}
+		.newsletter-form input {
+			width: 86%;
+		}
+		.load-more-btn.text-center a {
+			font-size: 15px;
+			padding: 15px 30px;
+		}
+		.footer-menu ul li a, .footer-right ul li a {
+			padding: 10px;
+		}
+		.footer-menu, .footer-right {
+			text-align: center;
+		}
+		.footer-are {
+			padding: 20px 0;
+		}
+		
+	
+}
